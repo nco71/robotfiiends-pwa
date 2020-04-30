@@ -1,10 +1,10 @@
 import React from 'react';
 
-const SearchBox = ({ searchfield, searchChange }) => {
-  console.log('SearchBox');
+const SearchBox = ({ searchChange }) => {
   return (
     <div className='pa2'>
       <input
+        id = 'search-robots-button'
         aria-label="Search"
         className='pa3 ba b--green bg-lightest-blue'
         type='search'
